@@ -25,9 +25,11 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <html lang="pl">
 
     <head>
-        <meta charser="utf-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Moje portfolio</title>
+        <meta name="description" content="Personal website">
+        <meta name="keywords" content="front-end, portfolio, developer, job">
         <link href="https://fonts.googleapis.com/css?family=Glegoo:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -73,7 +75,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>moją przygodę z front-endem zaczęłam stosunkowo niedawno. Nie mniej jednak ta przygoda szybko zaczęła stanowić moje codzienne zajęcie. Lubię zajmować się zarówno kodowaniem projektu jak i jego projektowaniem graficznym. Staram się nadawać projektom odrobinę charakteru.</p>
+                        <p>moją przygodę z front-endem zaczęłam stosunkowo niedawno. Niemniej jednak zaczęła ona szybko stanowić moje codzienne zajęcie. Lubię zajmować się zarówno kodowaniem projektu jak i jego projektowaniem graficznym. Staram się nadawać swoim pracom odrobinę charakteru.</p>
                     </div>
                 </div>
             </section>
@@ -83,32 +85,32 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 </div>
                 <div class="row">
                     <div class="item col-xs-12 col-sm-6 col-md-6">
-                        <div href="#" class="thumbnail">
-                            <a href="project1.php"><img src="images/project-1.png" alt=" "></a>
+                        <div class="thumbnail">
+                            <a href="project1.php" target="_blank"><img src="images/project-1.png" alt=" "></a>
                             <div class="caption">
                                 <h3>Projekt 1</h3>
                                 <p>Projekt o tematyce fotograficznej.</p>
-                                <a href="project1.php" class="btn btn-primary">Więcej</a>
+                                <a href="project1.php" target="_blank" class="btn btn-primary">Więcej</a>
                             </div>
                         </div>
                     </div>
                     <div class="item col-xs-12 col-sm-6 col-md-6">
-                        <div href="#" class="thumbnail">
-                            <a href="project2.php"><img src="images/project-2.png" alt=" "></a>
+                        <div class="thumbnail">
+                            <a href="project2.php" target="_blank"><img src="images/project-2.png" alt=" "></a>
                             <div class="caption">
                                 <h3>Projekt 2</h3>
-                                <p>Druga strona, będąca własnym portfolio.</p>
-                                <a href="project2.php" class="btn btn-primary">Więcej</a>
+                                <p>Druga strona- moje własne portfolio.</p>
+                                <a href="project2.php" target="_blank" class="btn btn-primary">Więcej</a>
                             </div>
                         </div>
                     </div>
                     <div class="item col-xs-12 col-sm-6 col-md-6">
-                        <div href="#" class="thumbnail">
-                            <a href="project3.php"><img src="images/project-3.png" alt=" "></a>
+                        <div class="thumbnail">
+                            <a href="project3.php" target="_blank"><img src="images/project-3.png" alt=" "></a>
                             <div class="caption">
                                 <h3>Projekt 3</h3>
-                                <p>Pierwsza ze zbudowanych stron o tematyce podróżniczej.</p>
-                                <a href="project3.php" class="btn btn-primary">Więcej</a>
+                                <p>Od tego zaczęłam ...</p>
+                                <a href="project3.php" target="_blank" class="btn btn-primary">Więcej</a>
                             </div>
                         </div>
                     </div>
@@ -130,7 +132,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 <div>
                     <div class="row element">
                         <div class="col-xs-12">
-                            <p>Przedstawione poniżej umiejętności posiadam na poziomie podstawowym, a pokazany podział jest stosunkowy.</p>
+                            <p>Przedstawione poniżej umiejętności posiadam na poziomie podstawowym. Schemat pokazuje ich proporcje.</p>
                         </div>
                         <div class="col-xs-12">
                             <div class="progress">
@@ -191,7 +193,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                     </div>
                 </div>
                 <div class="text-center">
-                    <a id="cv" class="btn btn-primary" href="images/18-max-cooper.jpg" download="Moje CV">Pobierz CV</a>
+                    <a id="cv" class="btn btn-primary" href="images/JustynaSkrajna_CV.pdf" download="JustynaSkrajna_CV.pdf">Pobierz CV</a>
                 </div>
             </section>
             <section id="contact">
@@ -200,10 +202,10 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <p>Jeżeli zainteresowała Cię moja strona i chciałbyś nawiązać ze mną współpracę czy zwyczajnie napisać, zapytać czy wyrazić opinię, zachęcam do skorzystania z formularza poniżej.</p>
+                        <p>Jeżeli zainteresowała Cię moja strona i chciałbyś nawiązać ze mną współpracę, zachęcam do skorzystania z poniższego formularza. Napisz, zapytaj, wyraź opinię!</p>
                     </div>
                     <div class="col-xs-12">
-                        <form class="form-horizontal" role="form" method="post" action="result.php">
+                        <form class="form-horizontal" method="post" action="result.php">
                             <div class="form-group">
                                 <label for="name" class="col-xs-3">Imię</label>
                                 <div class="col-xs-9">
@@ -225,7 +227,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                             <div class="form-group">
                                 <label for="message" class="col-xs-3">Wiadomość</label>
                                 <div class="col-xs-9">
-                                    <textarea class="form-control" rows="15" name="message" required><?php echo htmlspecialchars($_POST['message']);?></textarea>
+                                    <textarea class="form-control" rows="15" name="message" id="message" required><?php echo htmlspecialchars($_POST['message']);?></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -233,11 +235,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                                     <input id="submit" name="submit" type="submit" value="Wyślij" class="btn btn-primary">
                                     <button type="reset" class="btn btn-default">Wyczyść</button>
                                 </div>
-
                             </div>
-
                         </form>
-
                     </div>
                 </div>
             </section>
@@ -245,27 +244,27 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <footer>
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
-                    <div id="socialMedia"><a href="https://www.facebook.com/justyna.skrajna?ref=bookmarks" target="_blank"><span class="fa-stack fa-lg">
+                    <div id="socialMedia">
+                        <a href="https://www.facebook.com/justyna.skrajna?ref=bookmarks" target="_blank">
+                            <span class="fa-stack fa-lg">
   <i class="fa fa-square-o fa-stack-2x"></i>
   <i class="fa fa-facebook fa-stack-1x"></i>
 </span></a>
-                        <a href="https://github.com/jskrajna" target="_blank"><span class="fa-stack fa-lg">
+                        <a href="https://github.com/jskrajna" target="_blank">
+                            <span class="fa-stack fa-lg">
   <i class="fa fa-square-o fa-stack-2x"></i>
   <i class="fa fa-github fa-stack-1x"></i>
-</span></a> </div> <br/>
+</span></a>
+                    </div> <br>
                     <div id="additionalInfo">
-                        <a href="mailto:jskrajna@gmail.com"><span>Email:</span> jskrajna@gmail.com</a><br/><span>Telefon:</span> 512 700 877</div>
+                        <a href="mailto:jskrajna@gmail.com"><span>Email:</span> jskrajna@gmail.com</a><br><span>Telefon:</span> 512 700 877</div>
                 </div>
             </div>
-
         </footer>
-
-
         <script src="https://use.fontawesome.com/60556353aa.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
         <script src="scripts/script.js"></script>
-        </div>
 
     </body>
 

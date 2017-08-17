@@ -2,9 +2,11 @@
 <html lang="pl">
 
 <head>
-    <meta charser="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projekt 1</title>
+    <meta name="description" content="Personal website">
+    <meta name="keywords" content="front-end, portfolio, developer, job">
+    <title>Projekt 3</title>
     <link href="https://fonts.googleapis.com/css?family=Glegoo:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -51,11 +53,11 @@
     <div id="content">
         <section class="introduction">
             <div class="page-header">
-                <h2>Projekt 1</h2>
+                <h2>Projekt 3</h2>
             </div>
             <div class="row">
                 <div class="col-xs-11">
-                    <p>Strona internetowa typu one page o tematyce podróżniczej. Pierwsza stworzona strona, przeznaczona do praktyki, bez użycia frameworków.</p>
+                    <p>Strona internetowa typu one page o tematyce podróżniczej. Projekt przeznaczony do praktyki (wykonana bez użycia frameworków).</p>
                     <h5>Użyte technologie:</h5>
                     <ul class="fa-ul">
                         <li><i class="fa fa-html5" aria-hidden="true"></i> HTML5</li>
@@ -63,8 +65,8 @@
                         <li><i class="icon-jquery"></i> JQUERY</li>
                     </ul>
                     <div class="webbtns">
-                        <a href="https://jskrajna.github.io/photographer-site/index.html" class="btn btn-primary" target="_blank">STRONA</a>
-                        <a href="https://github.com/jskrajna/photographer-site" class="btn btn-primary" target="_blank">KOD</a>
+                        <a href="https://jskrajna.github.io/travel-site" class="btn btn-primary" target="_blank">STRONA</a>
+                        <a href="https://github.com/jskrajna/travel-site" class="btn btn-primary" target="_blank">KOD</a>
                         <a href="#" class="btn btn-primary preview">PODGLĄD</a>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 <html lang="pl">
 
 <head>
-    <meta charser="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Personal website">
     <meta name="keywords" content="front-end, portfolio, developer, job">
@@ -57,7 +57,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-11">
-                    <p>Moje portfolio.</p>
+                    <p>Własne portfolio.</p>
                     <h5>Użyte technologie:</h5>
                     <ul class="fa-ul">
                         <li><i class="fa fa-html5" aria-hidden="true"></i> HTML5</li>
@@ -67,7 +67,7 @@
                     </ul>
                     <div class="webbtns">
                         <a href="http://jskrajna.ct8.pl/" class="btn btn-primary" target="_blank">STRONA</a>
-                        <a href="https://github.com/jskrajna/photographer-site" class="btn btn-primary" target="_blank">KOD</a>
+                        <a href="https://github.com/jskrajna/Portfolio-site" class="btn btn-primary" target="_blank">KOD</a>
                         <a href="#" class="btn btn-primary preview">PODGLĄD</a>
                     </div>
                 </div>

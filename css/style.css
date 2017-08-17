@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: 'Glegoo', serif;
 }
 
@@ -10,6 +10,14 @@ img {
 a {
     text-decoration: none !important;
     color: inherit;
+}
+
+.btn {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.8em;
 }
 
 .row {
@@ -312,7 +320,7 @@ h1 i {
 
 label {
     font-family: 'Caveat', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 input[type=text],
@@ -513,26 +521,26 @@ footer a:hover {
 }
 
 .fa-ul {
-    margin-top:1em;
-    margin-bottom:3em;
+    margin-top: 1em;
+    margin-bottom: 3em;
     margin-left: 0 !important;
-    
 }
 
-.introduction h5{
-    margin-top:2em;
+.introduction h5 {
+    margin-top: 2em;
     font-weight: 700;
 }
+
 .fa-ul li {
     font-weight: 700;
-        border: 1px solid #00c78e;
-    display:inline;
+    border: 1px solid #00c78e;
+    display: inline;
     border-radius: 7px;
-    padding:0.3em;
-    
+    padding: 0.3em;
 }
-.fa-ul li:hover i{
-    color:#C70039;
+
+.fa-ul li:hover i {
+    color: #C70039;
 }
 
 .fa-ul i {
@@ -608,21 +616,68 @@ footer a:hover {
     .progress-bar {
         font-size: 1em;
     }
-    footer {}
+    label {
+        font-size: 1.5em;
+    }
     html {
         position: relative;
         min-height: 100%;
     }
     body {
-        margin-bottom: 170px;
+        margin-bottom: 13em;
     }
     footer {
         z-index: 1000;
         margin-left: 45%;
         position: relative;
-        height: 170px;
+        height: 13em;
         position: absolute;
         bottom: 0;
         width: 55%;
     }
 }
+
+@media screen and (min-width:60rem) {
+    #home {
+        font-size: 3.3em;
+    }
+}
+@media screen and (min-width:80rem) {
+
+              #home {
+        font-size: 3.9em;
+        line-height:1.1;
+    }
+}
+    @media screen and (min-width:90rem) {
+            body {
+            font-size: 18px;
+        }
+        #home{
+        font-size: 3.4em;}
+    }
+@media screen and (min-width:93rem){
+               body {
+            font-size: 20px;
+        }
+    font-size: 3.6em;
+}
+@media screen and (min-width:100rem){
+                   body {
+            font-size: 22px;
+        }
+}
+
+
+
+    @media screen and (min-width:150rem) {
+        body {
+            font-size: 28px;
+        }
+        .progress-bar {
+            font-size: inherit;
+        }
+        #home{
+            font-size:4em;
+        }
+    }
